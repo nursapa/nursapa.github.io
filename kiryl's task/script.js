@@ -33,4 +33,5 @@ const createSnows = (num) => {
     snow.innerHTML;
     snowConteiner.append(snow);
   }
+  snow.remove();
 };
