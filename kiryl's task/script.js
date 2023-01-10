@@ -7,9 +7,9 @@ const random = (num) => {
 const colors = ["red", "green", "blue", "yellow", "pink"];
 
 const getRandomStyles = () => {
-  const top = random(100)+ 10;
+  const top = random(100) + 10;
   const left = random(100) + 10;
-  const dur = random(5) + 3;
+  const dur = random(20) + 3;
   const size = random(25) + 25;
   const width = random(5) + 5;
   const background = random(5);
